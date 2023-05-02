@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Мировой Океан</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+.bg {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 15%, #00a0c7 100%);
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.cont__img {
+  background: bottom url("https://www.pngplay.com/wp-content/uploads/4/Sea-Transparent-Background.png");
+}
+
+.header__img {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container p {
+  line-height: 5vmin;
+  font-size: 5vmin;
+  padding: 10px;
+  font-weight: 550;
+}
+
+.container__info {
+  height: 30%;
+  font-size: 30px;
+  font-weight: 600;
+  width: 80%;
+  margin-left: 20px;
+  display: flex;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container__img {
+  width: 60vmin;
+  border-radius: 5px;
+  height: 90%;
+}
+
+.container__text {
+  display: flex;
+  align-items: center;
+  color: rgba(21, 79, 94, 0.652);
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+}
+
+.container__window {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container__window-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  height: 90%;
+}
+
+.container__imgs {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image {
+  margin: auto;
+  width: 60vmax;
+  height: 60vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.abs {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center !important;
+}
+
+.container__methods {
+  font-size: 24px;
+  font-weight: 600;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.container__methods * {
+  margin-bottom: 20px;
+}
+
+.container__methods img {
+  width: 60vmax;
+  height: 60vh;
+}
+
+.container__methods p {
+  text-align: left;
+}
+
+.real {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.ma {
+  margin-bottom: 50px;
+}
+
+.container__something-img {
+  width: 60%;
+  height: 100%;
+  outline: 4px solid black;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container__something-text {
+  background-color: aliceblue;
+  font-size: 24px;
+  font-weight: 600;
+  width: 40%;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+  outline: 4px solid black;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container__something {
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  height: 700px;
+  display: flex;
+  margin-bottom: 80px;
+}
+a {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container cont__img">
+      <div class="header__img">
+        <p>Тайны водных глубин</p>
+        <p>Автор работы: Варламов Арсений</p>
+      </div>
+    </div>
+    <div class="container bg">
+      <div class="container__info reverse">
+        <img
+          class="container__img"
+          src="https://interaffairs.ru/i/2021/08/9474c2095b3782a7defb9cff8cc64827.jpg"
+          alt=""
+        />
+        <div class="container__text">
+          Мировой океан занимает семьдесят один процент всего Земного шара, при
+          этом изучена она всего на шесть процентов. Даже изучив так мало,
+          учёные смогли сделать много открытий
+        </div>
+      </div>
+      <div class="container__info">
+        <img
+          class="container__img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqSQh8fV2rvHUtuJ1_L2YTfOEGA7sJoaupg-gB-8IoXtYSSGxEgclc4BP916hFwoMuMP4&usqp=CAU"
+          alt=""
+        />
+        <div class="container__text">
+          Под водой находиться много полезных ископаемых, интересных обитателей
+          и неразгаданных загадок
+        </div>
+      </div>
+      <div class="container__info reverse">
+        <img
+          class="container__img"
+          src="https://ocean.ru/media/k2/items/cache/5709ab37f70d899bd3794356bcaad57a_XL.jpg"
+          alt=""
+        />
+        <div class="container__text">
+          Изучение океана возможно только на научной основе. Освоив океан,
+          человек эволюционирует в плане развития технологий и хозяйственной
+          деятельности
+        </div>
+      </div>
+    </div>
+    <div class="container__window">
+      <div class="container__window-text">
+        <p>
+          Мировой океан - основная часть гидросферы, непрерывная, но не сплошная
+          водная оболочка Земли, окружающая материки и острова, и отличающаяся
+          общностью солевого состава. Континенты и большие архипелаги разделяют
+          мировой океан на четыре большие части:
+          <ul>
+            <ol>1. Атлантический</ol>
+            <ol>2.Индийский</ol>
+            <ol>3.Тихий</ol>
+            <ol>4.Северный Ледовитый океаны</ol>
+          </ul>
+          В 2000 году к выделению из них Международной
+          гидрографической организацией предложен Южный океан. Большие регионы
+          океанов известны как моря, заливы, проливы и т. п. Учение о земных
+          океанах называется океанологией.
+        </p>
+      </div>
+    </div>
+    <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Physical_world.jpg" alt="">
+    <p class="abs">Методы изучения океана</p>
+    <div class="container__methods">
+      
+      <p>1.	Первые исследователи измеряли глубины с помощью свинцовых шаров весом около центнера. Но метод был далеко не совершенен: шар очень медленно отпускался и неточно определял глубину, не всегда был слышен звук падения.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnxqb7iiPR5hUM9_FgXxVlb3YInsWeMu8vmIS72Gge6GGq3kePP61-DyeKP5rqyiJcHpc&usqp=CAU" alt="">
+    </div>
+    <div class="container__methods">
+      
+      <p>2.	В начале двадцатого века появились эхолоты. Это устройства, позволяющие измерять глубину с помощью звукового импульса, который отталкивается от морского дна. Такое измерение занимает всего несколько секунд. Эхолотами были снабжены практически все суда, измерения проводились в ходе движения судна.</p>
+      <img src="https://spinningpro.ru/wp-content/uploads/2022/05/eholoty-lowrance-12-800x474.jpg" alt="">
+    </div>
+    <div class="container__methods">
+      
+      <p>3.	В настоящее время для исследования применяются современные аппараты, такие, как батискаф и батисфера. Батискаф — это самоуправляемый аппарат, оборудованный кабиной для экипажа и специальными прожекторами. Аппарат опускается на океанское дно.</p>
+      <img src="http://ic.pics.livejournal.com/bmpd/38024980/2345488/2345488_original.jpg" alt="">
+    </div>
+    <a href="http://school-collection.edu.ru/catalog/rubr/8f5d7210-86a6-11da-a72b-0800200c9a66/20154/">Дополнительная информация для ознакомления</a>
+    <p class="abs">Загадки мирового океана</p>
+    <div class="container__methods ma">
+      <p class="real">Бермудский треугольник</p>
+      <p>В определенных местах бесследно пропадают воздушные и морские суда вместе с людьми, возникают гигантские водовороты и видны сияющие круги. Многие слышали о загадочном Бермудском треугольнике, в котором наблюдаются все перечисленные феномены.</p>
+      <img src="https://rg.ru/uploads/images/157/66/98/map.jpg" alt="">
+      <p class="ma">Суда шли на дно, поскольку плотность воды значительно уменьшалась. Самолеты теряли ориентацию под действием газов. Движение углеводородов в воде создает инфразвук, который вызывает у человека состояние паники. Такой страх мог заставить команду в полном составе спешно покинуть судно.</p>
+    </div>
+    <div class="container__methods">
+      <p class="real">Экология</p>
+      <p>Кое-кто считает, что на нашей планете практически не осталось неизведанных мест к началу XXI столетия, однако самая огромная часть Земли – мировой океан – остается практически неизученным</p>
+      <img src="data:image/jpeg;base64,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" alt="">
+      <p class="ma"></p>
+    </div>
+    <div class="container__methods">
+      <p class="real">Гиганты глубин</p>
+      <p>В самых экстремальных глубинах Тихого океана живут огромные морские обитатели — гигантские кальмары. Их длина может достигать 15 метров.</p>
+      <img src="https://scientificrussia.ru/images/e/2m7e-large.jpg" alt="">
+      <p class="ma">Факт их существования теперь научно подтвержден, поэтому эти создания уже не считаются мифическими. Однако исследователи Тихого океана до сих пор ставят под сомнение возможность существования подобных существ, чья длина достигала бы 30 метров.</p>
+    </div>
+    <div class="container__methods">
+      <p class="real">Фата-моргана</p>
+      <p>Это оптическое явление, которое создает необычную форму миража, периодически появляется над океаническим горизонтом. Мираж Фата-моргана искажает объекты, иногда делая их полностью неузнаваемыми.</p>
+      <img src="https://xfile.ru/upload/iblock/8f3/3r8cz39vrby4ot6b51mr53uvi03dagjm.jpg" alt="">
+      <p class="ma">Фата-Моргана чаще возникает в холодных - полярных или приполярных - водах, где лучи света могут сначала отразиться от поверхности моря, потом преломиться в атмосферном канале на границе холодного и теплого воздуха, потом уйти в небо, отразиться там.</p>
+    </div>
+    <div class="container__methods">
+      <p class="real">Движущиеся круги</p>
+      <p>Вблизи персидского залива находятся загадочные светящиеся круги, которые светятся ночью. Некоторые учёные считают, что это планктоны, но многие с этим не согласны.</p>
+      <img src="https://documents.infourok.ru/edd04396-e182-4624-aa0d-53c38ade1af9/0/image013.jpg" alt="">
+      <p class="ma"></p>
+    </div>
+    <div class="container__methods">
+      <p class="real">Водоворот Мальстрема</p>
+      <p>Это место располагается в Норвежском море. Феномен заключается в том, что ежедневно два раза в сутки здесь возникает водоворот, сила которого в сотни раз превышает силу обычных океанских течений.</p>
+      <img src="https://upload.tury.club/data/e501b038ffe72fb715290bc6bd11bcf1/HujUSzMb/59411687337ac.jpg" alt="">
+      <p class="ma">Интересно, что примерно раз в полгода водоворот внезапно меняет свое направление.</p>
+    </div>
+    <div class="container__methods">
+      <p class="real">Море дьявола</p>
+      <p>В Тихом океане есть место под названием Море дьявола, оно не отмечено ни на одной карте, однако известно всем мореплавателям, и суда стараются обходить его стороной.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/MiyakeFromKozuTyoJpDec04-01.jpg" alt="">
+      <p class="ma">Участок океанского дна здесь сейсмически активен, часто и быстро происходит формирование вулканических островов. Кроме того, здесь очень высокая циклоническая деятельность: часто бушуют тайфуны и тропические циклоны</p>
+    </div>
+    <a href="https://hotel-all.ru/vietnam/glubiny-okeana-tainy-i-zagadki-mirovoi-okean-velichaishaya-zagadka/">Ещё больше интересных загадок океана</a>
+    <p class="abs">Открытия</p>
+    <p class="real">Микроорганизмы</p>
+    <div class="container__something">
+      <div class="container__something-text">Когда мы говорим об открытиях в мировом океане нельзя не сказать о живых организмах. Более шестидесяти процентов биомассы воды составляют микробы. Их видов намного больше чем на поверхности. Международная команда ученых, работавших на судне Tara, собрала образцы морской воды в разных частях Мирового океана и обнаружила почти 200 тысяч видов морских вирусов — до этого было известно лишь 15 тысяч таких видов.</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Clostridium_botulinum.jpg" class="container__something-img">
+    </div>
+    <p class="real">Строение Земли</p>
+    <div class="container__something">
+      <div class="container__something-text">На основе строения глубин учёные создают строение земли в целом. Исследования океана выдвинули теорию литосфер и доказали её. Литосфера – каменная оболочка Земли, включающая земную кору и верхнюю часть мантии.
+        Изучение литосферы позволяет не только изучать процессы, происходившие на планете много миллионов лет назад, но и составлять прогнозы будущего облика Земли. 
+        </div>
+      <img src="https://ykl-res.azureedge.net/1504edd6-5be3-4552-ae86-e29948d3c087/11123w658.png" class="container__something-img">
+    </div>
+    <p class="real">Жизнь на дне океана</p>
+    <div class="container__something">
+      <div class="container__something-text">Жизнь в океанских водах куда разнообразнее, чем кажется большинству из нас. Только в ушедшем десятилетии было обнаружено множество новых видов живых организмов, и некоторые из них меняют представление о жизни под водой.
+        Например, всего четыре года назад ученые описали новый вид рыб , обитающих на глубине свыше 7500 метров. Много лет считалось, что выжить в таких условиях просто невозможно. Длиной рыбки не превышают 28 сантиметров, весят не более 200 граммов и абсолютно слепы. На глубине, где они обитают, давление настолько высоко, что способно раздавить живое существо. Похожее давление испытывал бы человек, если бы пытался на мизинце удержать груз весом 800 килограммов. Это открытие заставляет задуматься о том, что жизнь может обнаружить себя в самых потаенных уголках планеты, и мы знаем о ней еще меньше, чем кажется.
+        </div>
+      <img src="https://portal.azertag.az/uploads/news-files/2021/Mart/ok.jpg" class="container__something-img">
+    </div>
+    <a style="margin-bottom: 20px;" href="https://www.ras.ru/news/shownews.aspx?id=807578f5-d7eb-4341-aa94-efdea929db44">Институт изучения мирового океана</a>
+  </body>
+</html>
